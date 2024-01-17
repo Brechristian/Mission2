@@ -8,7 +8,7 @@ namespace two6dice
 {
     internal class DiceRoller
     {
-        // second class, DiceRoller, receives the numRolls from the first class
+        // second class, DiceRoller, receives the numRolls from the first class.
             private readonly Random random = new Random();
 
             public int[] SimulateRolls(int numRolls)
